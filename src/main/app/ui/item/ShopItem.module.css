@@ -1,0 +1,54 @@
+.backGround_item {
+    margin-top: 20px;
+    box-shadow: 5px 7px 25px 5px rgba(0,0,0,0.4);
+    padding: 20px 20px;
+    background-color: dimgrey;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item_name_txt {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.item_status_txt {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.button_delete {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.item_priority_txt {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.item_priority_value_txt {
+    color: gold;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: -3px;
+    padding-left: 5px;
+
+}
+.content_position_priority{
+     display: flex;
+    align-items: flex-start;
+}
+.button_add_list{
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    padding: 6px;
+    border-radius: 5px;
+}
