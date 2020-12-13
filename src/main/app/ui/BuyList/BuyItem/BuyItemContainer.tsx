@@ -1,19 +1,19 @@
-import React from 'react';
-import classes from "./BuyItem.module.css";
+import React, {useEffect} from 'react';
 import BuyItem from "./BuyItem";
 import {useDispatch} from "react-redux";
-import { deleteFromBuyListTC } from '../../../bll/Reducers/app-reducer';
+import { deleteFromBuyListTC } from '../../../bll/Reducers/ShopList-reducer';
 
 type PropsTypeItem ={
     name:string
     value:number
     status: string
-    priority: number
+    priority: string
     price: number
     id:number
 }
 
 const BuyItemContainer: React.FC<PropsTypeItem>= (props) => {
+
     const dispatch = useDispatch()
     const deleteFromBuyList =(id:number)=>{
         dispatch(deleteFromBuyListTC(id))

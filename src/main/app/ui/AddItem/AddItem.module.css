@@ -1,0 +1,32 @@
+.wrapperBlock {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapperBlock p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+}
+.wrapperBlock input{
+    padding: 5px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: darkgray;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.blockAddItem {
+    margin-top: 20px;
+}
+.go_back_button{
+    height: 30px;
+    border: none;
+    background-color: indianred;
+    color: white;
+    font-weight: 700;
+    padding: 2px ;
+    border-radius: 5px;
+}

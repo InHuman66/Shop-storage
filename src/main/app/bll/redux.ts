@@ -1,6 +1,6 @@
 import {applyMiddleware, combineReducers, createStore} from "redux";
 import thunkMiddleware  from "redux-thunk"
-import {appReducer} from "./Reducers/app-reducer";
+import {shopListReducer} from "./Reducers/ShopList-reducer";
 
 
 
@@ -9,7 +9,7 @@ export type reduxStoreType = typeof store
 export type reduxDispatchType = typeof  dispatch;
 
 let  reducersBatch = combineReducers({
-    appReducer: appReducer,
+    shopListReducer: shopListReducer,
 });
 
 

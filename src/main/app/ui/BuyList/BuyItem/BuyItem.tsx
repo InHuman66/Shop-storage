@@ -5,7 +5,7 @@ type PropsTypeItem ={
     name:string
     value:number
     status: string
-    priority: number
+    priority: string
     price: number
     id:number
     deleteItem:(id:number)=>void

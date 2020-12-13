@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from "./BuyList.module.css";
 import ShopItem from "../item/ShopItem";
-import {ItemsList} from "../../bll/Reducers/app-reducer";
+import {ItemsList} from "../../bll/Reducers/ShopList-reducer";
 import ShopItemContainer from '../item/ShopItemContainer';
 import BuyItemContainer from "./BuyItem/BuyItemContainer";
 

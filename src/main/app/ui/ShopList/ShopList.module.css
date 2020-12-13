@@ -47,3 +47,13 @@
         font-weight: 700;
         margin-left: 8px;
 }
+.button_filter_Focus {
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 8px;
+        border: solid 1px gold;
+}
+.filter_status_block button:focus{
+        outline:none;
+}
